@@ -1,0 +1,5 @@
+name: Sandy
+description: A sandbox module to try things out in drupal 8.
+core: 8.x
+package: Custom
+type: module
