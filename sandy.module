@@ -3,10 +3,10 @@
  * Implements hook_menu().
  */
 function sandy_menu() {
-  $items['hello_world'] = array(
-    'title' => 'Hello',
-    'description' => 'The Hello World page',
-    'route_name' => 'hello.hello_world',
+  $items['sandy'] = array(
+    'title' => 'Sandy',
+    'description' => 'The Sandy page',
+    'route_name' => 'sandy.sandy_box',
   );
   return $items;
 }
