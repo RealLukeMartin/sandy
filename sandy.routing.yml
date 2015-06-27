@@ -1,0 +1,6 @@
+hello.hello_world:
+  path: '/sandy'
+  defaults:
+    _content: '\Drupal\sandy\Controller\SandyController::sandy'
+  requirements:
+    _permission: 'view sandy'
