@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Contains \Drupal\sandy\Controller\sandyController.
+ * Contains \Drupal\sandy\Controller\SandyController.
  */
 namespace Drupal\sandy\Controller;
 use
