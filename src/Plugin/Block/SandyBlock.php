@@ -4,9 +4,9 @@
  * Contains \Drupal\sandy\Plugin\Block\SandyBlock.
  */
  
-namespace Drupal\block_example\Plugin\Block;
+namespace Drupal\sandy\Plugin\Block;
  
-use Drupal\block\BlockBase;
+use Drupal\Core\Block\BlockBase;
 use Drupal\Component\Annotation\Plugin;
 use Drupal\Core\Annotation\Translation;
  
@@ -19,7 +19,7 @@ use Drupal\Core\Annotation\Translation;
  *   admin_label = @Translation("Sandy box block")
  * )
  */
-class BlockSandySimpleBlock extends BlockBase {
+class SandyBlock extends BlockBase {
    
   /**
    * Implements \Drupal\block\BlockBase::blockBuild().
@@ -28,7 +28,7 @@ class BlockSandySimpleBlock extends BlockBase {
     return array(
       '#markup' => t('Simple Sandy block data'),
     );
-    return \Drupal::formBuilder()->getForm('Drupal\search\Form\SearchBlockForm');
+    return Drupal::formBuilder()->getForm('Drupal\search\Form\SearchBlockForm');
   }
  
 }
