@@ -15,4 +15,10 @@ class SandyController extends ControllerBase {
         '#markup' => t('dat page tho'),
     );
   }
+  public function config() {
+    return array(
+        '#type' => 'markup',
+        '#markup' => t('dat page tho'),
+    );
+  }
 }

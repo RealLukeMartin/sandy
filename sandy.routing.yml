@@ -5,3 +5,11 @@ sandy.content:
     _title: 'Sandy'
   requirements:
     _permission: 'access content'
+
+sandy.config:
+  path: 'admin/sandy'
+  defaults:
+    _controller: '\Drupal\sandy\Controller\SandyController::config'
+    _title: 'Sandy'
+  requirements:
+    _permission: 'access content'
