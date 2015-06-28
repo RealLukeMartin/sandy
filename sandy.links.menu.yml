@@ -1,0 +1,6 @@
+sandy.admin:
+  title: 'Sandy module settings'
+  description: 'make the sandy page'
+  parent: system.admin_config_development
+  route_name: sandy.content
+  weight: 100

@@ -1,10 +1,6 @@
 name: Sandy
 type: module
-description: 'Drupal 8 Sandbox example'
+description: Drupal 8 module sandbox'
 package: Custom
-version: 8.x-1.0
+version: 8.x
 core: 8.x
-dependencies:
-  - node
-  - block
-hidden: false

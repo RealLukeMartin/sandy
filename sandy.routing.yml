@@ -1,6 +1,7 @@
-sandy:
-  pattern: 'admin/sandy'
+sandy.content:
+  path: '/sandy'
   defaults:
-    _content: '\Drupal\sandy\Controller\SandyController::sandyPage'
+    _controller: '\Drupal\sandy\Controller\SandyController::content'
+    _title: 'Sandy'
   requirements:
-    _permission: 'access administration pages'
+    _permission: 'access content'
