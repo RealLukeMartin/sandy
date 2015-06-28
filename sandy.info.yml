@@ -4,3 +4,5 @@ description: Drupal 8 module sandbox
 package: Custom
 version: 8.x
 core: 8.x
+dependencies:
+  - block
