@@ -10,6 +10,14 @@ sandy.config:
   path: 'admin/sandy'
   defaults:
     _controller: '\Drupal\sandy\Controller\SandyController::config'
-    _title: 'Sandy'
+    _title: 'Sandy Configuration'
+  requirements:
+    _permission: 'access content'
+
+sandy.form:
+  path: '/form'
+  defaults:
+    _form: '\Drupal\sandy\Form\SandyForm'
+    _title: 'Sandy Form'
   requirements:
     _permission: 'access content'
