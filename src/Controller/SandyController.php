@@ -12,7 +12,7 @@ class SandyController extends ControllerBase {
   public function content() {
     return array(
         '#type' => 'markup',
-        '#markup' => t('Sandy Box!'),
+        '#markup' => t('dat page tho'),
     );
   }
 }
