@@ -1,21 +1,18 @@
 <?php
 namespace Drupal\sandy\Plugin\Block;
+
 use Drupal\Core\Block\BlockBase;
+
 /**
- * Provides a 'Hello' Block
+ * Provides a 'Sandy' block.
  *
  * @Block(
- *   id = "hello_block",
- *   admin_label = @Translation("Hello block"),
+ *   id = "sandy_block",
+ *   admin_label = @Translation("Sandy Block"),
  * )
  */
 class SandyBlock extends BlockBase {
-  /**
-   * {@inheritdoc}
-   */
-  public function build() {
-    return array(
-      '#markup' => $this->t('Hello, World!'),
-    );
-  }
+
+    // Override BlockPluginInterface methods here.
+
 }
