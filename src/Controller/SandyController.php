@@ -18,7 +18,7 @@ class SandyController extends ControllerBase {
   public function config() {
     return array(
         '#type' => 'markup',
-        '#markup' => t('dat admin tho'),
+        '#markup' => t('Sandy creates a page at <a href="/sandy">/sandy</a>'),
     );
   }
 }
