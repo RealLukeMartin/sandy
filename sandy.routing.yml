@@ -13,3 +13,11 @@ sandy.config:
     _title: 'Sandy Configuration'
   requirements:
     _permission: 'access content'
+
+sandy_form:
+  path: '/sandyform'
+  defaults:
+    _form: '\Drupal\sandy\Form\SandyForm'
+    _title: 'Sandy Form page'
+  requirements:
+    _permission: 'access content'
