@@ -1,5 +1,10 @@
 name: Sandy
-description: A sandbox module to try things out in drupal 8.
-core: 8.x
-package: Custom
 type: module
+description: 'Drupal 8 Sandbox example'
+package: Custom
+version: 8.x-1.0
+core: 8.x
+dependencies:
+  - node
+  - block
+hidden: false

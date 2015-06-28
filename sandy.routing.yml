@@ -1,0 +1,6 @@
+sandy:
+  pattern: 'admin/sandy'
+  defaults:
+    _content: '\Drupal\sandy\Controller\SandyController::sandyPage'
+  requirements:
+    _permission: 'access administration pages'
